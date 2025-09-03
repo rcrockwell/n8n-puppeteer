@@ -5,10 +5,8 @@
   "description": "n8n workflow automation with Puppeteer browser automation support",
   "tagline": "Workflow automation with browser automation",
   "version": "1.0.0",
-  "repository": "https://github.com/rcrockwell/n8n-puppeteer.git",
   "website": "https://n8n.io",
   "httpPort": 5678,
   "memoryLimit": 1073741824,
-  "manifestVersion": 2,
-  "logo": "logo.png"
+  "manifestVersion": 1
 }
