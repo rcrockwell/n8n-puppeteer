@@ -1,0 +1,18 @@
+{
+  "name": "n8n-puppeteer-cloudron",
+  "version": "1.0.0",
+  "description": "n8n with Puppeteer for Cloudron",
+  "main": "start.sh",
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0",
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "rcrockwell",
+  "license": "MIT"
+}
