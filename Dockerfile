@@ -1,13 +1,13 @@
 FROM node:18-bullseye
 
 # Install system dependencies for headless Chrome/Puppeteer
+# Removed deprecated and unnecessary packages
 RUN apt-get update && apt-get install -y \
     wget \
     gnupg \
     ca-certificates \
     procps \
     libxss1 \
-    libgconf-2-4 \
     libxrandr2 \
     libasound2 \
     libpangocairo-1.0-0 \
@@ -22,25 +22,15 @@ RUN apt-get update && apt-get install -y \
     libxtst6 \
     libnss3 \
     libcups2 \
-    libxss1 \
-    libxrandr2 \
-    libgconf2-4 \
-    libasound2 \
-    libpangocairo-1.0-0 \
-    libatk1.0-0 \
-    libcairo-gobject2 \
     libdrm2 \
     libxkbcommon0 \
     libatspi2.0-0 \
     fonts-liberation \
     libappindicator3-1 \
-    libasound2 \
     libatk-bridge2.0-0 \
     libnspr4 \
-    libnss3 \
     lsb-release \
     xdg-utils \
-    libxss1 \
     libgbm1 \
     && rm -rf /var/lib/apt/lists/*
 
